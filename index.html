@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Piano</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logo.ico">
+    <script src="script.js" defer></script>
+    <!-- JQuery Installation -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="topnav">
+            <img src="logo2.jpg" alt="">
+            <span id="tagline">Playable Piano: 24 Keys Piano now at your Fingertips</span>
+        </div>
+    </nav>
+    <div class="Piano">
+        <div class="wrapper">
+            <header>
+                <h2>Piano</h2>
+                <div class="coloumn volume-slider">
+                    <span>Volume</span> <input type="range" min="0" max="1" value="0.5" step="any">
+                </div>
+                <!-- jo bhi input lega uska id intype rahega -->
+                <!-- <label for="type">Instrument</label>
+                <input list="type" name="instrument" id="intype">
+                <datalist id="type">
+                    <option value="piano">
+                    <option value="guitar">
+                </datalist> -->
+                <div class="coloumn keys-checkbox">
+                    <span>Show Keys</span> <input type="checkbox" checked>
+                </div>
+            </header>
+            <ul class="piano-keys">
+                <li class="key white" data-key="a"><span>a</span></li>
+                <li class="key black" data-key="w"><span>w</span></li>
+                <li class="key white" data-key="s"><span>s</span></li>
+                <li class="key black" data-key="e"><span>e</span></li>
+                <li class="key white" data-key="d"><span>d</span></li>
+                <!-- .................................. -->
+                <li class="key white" data-key="f"><span>f</span></li>
+                <li class="key black" data-key="t"><span>t</span></li>
+                <li class="key white" data-key="g"><span>g</span></li>
+                <li class="key black" data-key="y"><span>y</span></li>
+                <li class="key white" data-key="h"><span>h</span></li>
+                <li class="key black" data-key="u"><span>u</span></li>
+                <li class="key white" data-key="j"><span>j</span></li>
+                <!-- ............................... -->
+                <li class="key white" data-key="k"><span>k</span></li>
+                <li class="key black" data-key="o"><span>o</span></li>
+                <li class="key white" data-key="l"><span>l</span></li>
+                <li class="key black" data-key="p"><span>p</span></li>
+                <li class="key white" data-key=";"><span>;</span></li>
+                <!-- ............................ -->
+                <li class="key white" data-key="z"><span>z</span></li>
+                <li class="key black" data-key="x"><span>x</span></li>
+                <li class="key white" data-key="c"><span>c</span></li>
+                <li class="key black" data-key="v"><span>v</span></li>
+                <li class="key white" data-key="b"><span>b</span></li>
+                <li class="key black" data-key="n"><span>n</span></li>
+                <li class="key white" data-key="m"><span>m</span></li>
+            </ul>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/161eee73d5.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
